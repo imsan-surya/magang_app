@@ -10,7 +10,7 @@ class Filters extends BaseConfig
 		'csrf'     => \CodeIgniter\Filters\CSRF::class,
 		'toolbar'  => \CodeIgniter\Filters\DebugToolbar::class,
 		'honeypot' => \CodeIgniter\Filters\Honeypot::class,
-		'filteradmin' => \App\Filters\FilterAdmin::class,
+		'filterdonatur' => \App\Filters\FilterDonatur::class,
 		'filterpengadopsi' => \App\Filters\FilterPengadopsi::class,
 		'filtermitra' => \App\Filters\FilterMitra::class,
 		
@@ -19,7 +19,7 @@ class Filters extends BaseConfig
 	// Always applied before every request
 	public $globals = [
 		'before' => [
-			'filteradmin' => [
+			'filterdonatur' => [
 				'except' => ['/','auth', 'auth/*','web']
 			],
 			'filterpengadopsi' => [
@@ -32,8 +32,8 @@ class Filters extends BaseConfig
 			// 'csrf',
 		],
 		'after'  => [
-			'filteradmin' => [
-				'except' => ['home', 'home/*','web', 'admin', 'admin/*']
+			'filterdonatur' => [
+				'except' => ['home', 'home/*','web', 'donatur', 'donatur/*']
 			],
 			'filterpengadopsi' => [
 				'except' => ['home', 'home/*','web', 'pengadopsi', 'pengadopsi/*']

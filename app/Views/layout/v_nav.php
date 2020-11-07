@@ -8,13 +8,13 @@
         <?php if(session()->get('level') == 1){ ?>
         <li>
           <a href="admin">
-            <i class="fa fa-fire"></i> <span>Dashboard Admin 1</span>
+            <i class="fa fa-fire"></i> <span>Dashboard Donatur</span>
             </span>
           </a>
         </li>
         <li>
-          <a href="auth/logout">
-            <i class="fa fa-fire"></i> <span>Dashboard Admin 2</span>
+        <a href="auth/logout">
+            <i class="fa fa-power-off"></i> <span>Logout</span>
             </span>
           </a>
         </li>
@@ -23,7 +23,7 @@
         <?php if(session()->get('level') == 2){ ?>
         <li>
           <a href="pengadopsi">
-            <i class="fa fa-fire"></i> <span>Dashboard Pengadopsi 1</span>
+            <i class="fa fa-fire"></i> <span>Dashboard Pengadopsi</span>
             </span>
           </a>
         </li>
