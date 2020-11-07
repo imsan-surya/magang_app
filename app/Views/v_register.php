@@ -202,19 +202,23 @@
       </div>
       
       <div id="form_pengadopsi" hidden>
-          <div class="form-group">
-            <label>Paket :</label>
-            <select  id="paket" name="paket" class="form-control" onchange="harga()">
-              <option value="">Pilih...</option>
-              <option value="250.000">Paket A - Rp.250.000</option>
-              <option value="500.000">Paket B - Rp.500.000</option>
-              <option value="1.000.000">Paket C - Rp.1.000.000</option>          
-              <option value="5.000.000">Paket D - Rp.5.000.000</option>          
-              <option value="10.000.000">Paket E - Rp.10.000.000</option>          
-            </select>
+        
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <div class="form-group">
+              <label>Paket :</label>
+              <select  id="paket" name="paket" class="form-control" onchange="harga()">
+                <option value="">Pilih...</option>
+                <option value="250.000">Paket A - Rp.250.000</option>
+                <option value="500.000">Paket B - Rp.500.000</option>
+                <option value="1.000.000">Paket C - Rp.1.000.000</option>          
+                <option value="5.000.000">Paket D - Rp.5.000.000</option>          
+                <option value="10.000.000">Paket E - Rp.10.000.000</option>          
+              </select>
+            </div>
           </div>
 
-          <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="form-group">
                   <label for="harga">Harga :</label>
@@ -222,12 +226,6 @@
               </div>
             </div>
             
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="form-group">
-                <label for="jumlah">Jumlah :</label>
-                <input type="number" class="form-control" name="jumlah" id="jumlah">
-              </div>
-            </div>
         </div>
       </div>
 
@@ -237,10 +235,6 @@
         <input type="text" class="form-control" name="bantuan" id="bantuan" placeholder="Masukan jumlah bantuan...">
     </div>
 
-    <div class="form-group">
-        <label for="total">Total :</label>
-        <input type="number" class="form-control" name="total" id="total">
-    </div>
 
     <div class="form-group">
         <label for="bukti">File input</label>
