@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2020 at 11:04 AM
+-- Generation Time: Nov 10, 2020 at 11:51 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -61,12 +61,11 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_depan`, `nama_belakang`, `email`, `institusi`, `no_hp`, `no_whatsapp`, `tempat_lahir`, `tanggal_lahir`, `provinsi`, `kab_kota`, `kecamatan`, `kelurahan`, `level`, `bantuan`, `paket`, `harga`, `jumlah`, `total`, `bukti`, `catatan`, `alamat`, `foto_user`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'Muhammad Imsan', 'imsans@gmail.com', '081586043983', 'imsan', '3', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(2, 'Citra', 'citra@gmail.com', '08127138193', 'citra', '1', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(3, 'Ahmad', 'ahmad@gmail.com', '087216318128', 'ahmad', '2', '', '', '', '', '', '', '', 0, '', '', '', '', '', '', '', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(5, 'pengadopsi', 'bibit', 'pengadopsi@app.com', 'Perorangan', '081586043983', '0817317429', 'padang', '13/07/2001', 'sumbar', 'melawai', 'melawai', 'melawai', 2, '13141', '5.000.000', '', '4', '6', 'topper.png', 'adadadas', 'melawai utara', '', '$2y$10$WLDeRuxKHocbMfK0Wtswi.CXnDemXIYyauisoo4vb5QyAjtDFE3Gu', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(6, 'indah', 'sari', 'indah@gmail.com', 'Perorangan', '0088319320', '0817317429', 'padang', '13/07/2001', 'jakarta', 'melawai', 'badui', 'badui dalam', 2, '13141', '500.000', '', '8', '4', 'topper.png', 'isamidada', 'pembangunan', '', 'indah', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(7, 'admin1', 'sari', 'admin1@gmail.com', 'Perorangan', '0088319320', '081586043983', 'Jakarta', '14/06/2000', 'DKI Jakarta', 'Jakarta Pusat', 'Gambir', 'Petojo Utara', 1, '131', '5.000.000', '', '4', '2', 'topper.png', 'ada', 'pembangunan 3', '', 'admin', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+(10, 'donatur', 'kami', 'donatur@gmail.com', 'Perorangan', '081586043983', '081586043983', 'Jakarta', '14/06/2000', 'DKI Jakarta', 'Sabang', 'melwai', 'Petojo Utara', 1, '121', '0', '', '', '4', 'topper.png', 'Donatur', 'pembangunan 3', '', 'donatur', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(11, 'pengadopsi', 'bebek', 'pengadopsi@gmail.com', 'Perorangan', '08127183191', '0817317429', 'jakarta', '29/02/1996', 'jakarta', 'jakarta pusat', 'Gambir', 'badui dalam', 2, '', '500.000', '', '13131', '13141', 'topper.png', 'adasafafsafa', 'pembangunan 3', '', 'pengadopsi', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(12, 'mitra', 'dagang', 'mitra@gmail.com', 'Perorangan', '08127183191', '0817317429', 'jakarta', '13/07/2001', 'jakarta', 'jakarta pusat', 'badui', 'badui dalam', 3, '11', '', '', '', '2', 'topper.png', 'adasfsgrhfhfesagdsfagsrd', 'pembangunan', '', 'mitra', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(13, 'lorde', 'ella', 'lorde@gmail.com', 'Perorangan', '0812137171', '08173173', 'auckland', '07/11/1996', 'Auckland', 'Takapuna', 'gatau', 'gatau', 3, '1212', '', '', '', '', 'topper.png', 'its lorde with an e', 'gatau', '', '$2y$10$jjwkHceox3Fq2mBPs.3H9e80LqECVrOepenOCf8SZh52nfbx4vPK2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(14, 'rezky', 'adhitya', 'rezky@gmail.com', 'Perorangan', '0812137171', '081586043983', 'ntt', '07/11/1996', 'Aceh', 'Banten', 'gatau', 'gatau', 3, '13141', '', '', '', '', 'topper.png', 'rezky nie', 'melawai utara', '', '$2y$10$TQL1Mt2FJoRNN1A.xfGbkeYERH9MCfHH8pAgRtI/ipu2gcIV7TGWG', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -86,7 +85,7 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -111,13 +111,6 @@ class Auth extends BaseController
                  'required' => '{field} harus diisi!'
                  ]
             ],
-            'total' => [
-                'label' => 'total',
-                'rules' => 'required',
-                'errors' => [
-                 'required' => '{field} harus diisi!'
-                 ]
-            ],
             'bukti' => [
                 'label' => 'bukti',
                 'rules' => 'required',
@@ -157,8 +150,6 @@ class Auth extends BaseController
                'level' => $this->request->getPost('level'),
                'bantuan' => $this->request->getPost('bantuan'),
                'paket' => $this->request->getPost('paket'),
-               'jumlah' => $this->request->getPost('jumlah'),
-               'total' => $this->request->getPost('total'),
                'bukti' => $this->request->getPost('bukti'),
                'catatan' => $this->request->getPost('catatan'),
                'alamat' => $this->request->getPost('alamat'),
