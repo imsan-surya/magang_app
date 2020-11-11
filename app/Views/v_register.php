@@ -47,6 +47,7 @@
         document.getElementById("harga_paket").value=tes;
 }
 </script>
+  
 </head>
 <body class="hold-transition register-page">
   

@@ -37,7 +37,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="login" class="navbar-brand"><b>Toba</b>Research</a>
+          <a href="login" class="navbar-brand"><b>PT.Agrowisata </b>Porlak Parna</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="fa fa-bars"></i>
           </button>
